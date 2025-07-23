@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="camera.css">
+</head>
+<body>
+    <div class="bg-container h-screen">
+        <h1 id="greetings" class="text-2xl m-3 hidden">Congratulations, Winnner is <span id="winnerName" class="font-bold"></span></h1>
+        <button id="newGameBtn" class="hidden">New Game</button>
+        <p class="text-2xl m-5 font-bold bg-[#2b2126] text-[#f0aac9] p-4 rounded-3xl">Tic Tac Toe</p>
+        <div id="blocksContainer">
+            <div id="block1" class="block-style"></div>
+            <div id="block2" class="block-style"></div>
+            <div id="block3" class="block-style"></div>
+            <div id="block4" class="block-style"></div>
+            <div id="block5" class="block-style"></div>
+            <div id="block6" class="block-style"></div>
+            <div id="block7" class="block-style"></div>
+            <div id="block8" class="block-style"></div>
+            <div id="block9" class="block-style"></div>
+        </div>
+        <button id="resetGameBtn">Reset Game</button>
+    </div>
+    <script src="./action.js"></script>
+</body>
+
+</html>
